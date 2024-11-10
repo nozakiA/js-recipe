@@ -17,10 +17,16 @@ const hikakin = {
 // オブジェクトにはたくさんのプロパティを追加してください。
 
 // const me = { name: 'あなたのなまえ' }
+const me = {
+  name: "野崎朱里",
+  age: 23,
+  gender: "female",
+}
 
 // ブラウザのコンソールを開いてオブジェクトが正しく作れているか確認してみましょう👀
-
+console.log(me)
 // console.log(me)
 
 // TRY: 練習問題２
 // hikakin オブジェクトに入っている sayHello メソッドを実行してください。
+hikakin.sayHello()
