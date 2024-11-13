@@ -4,8 +4,9 @@ const allArea = document.getElementById("all-area")
 const allButton = document.getElementById("all-button")
 
 const allNumber = function () {
-  allArea.value = inputText1.value + inputText2.value
-  console.log(allArea.value)
+  allArea.value = Number(inputText1.value) + Number(inputText2.value)
+  //console.log(Number(allArea.value))
+  allArea.textContent = allArea.value
 }
 
 //inputText1.oninput = logValue
